@@ -81,6 +81,24 @@
         }
       },
       {
+        "blockquote": "https://www.facebook.com/your-facebook-username/allactivity/?category_key=STATUSCLUSTER"
+      },
+      {
+        "code": {
+          "language": "js",
+          "content": [
+            "  selector =                                   ",
+            "    `                                          ",
+            "      [aria-label='Action options'],           ",
+            "      :contains('Delete'),                     ",
+            "      :contains('Move to trash'),              ",
+            "      :contains('Move to Trash')               ",
+            "    `                                          ",
+            "  setInterval(() => $(selector).click(), 999)  "
+          ]
+        }
+      },
+      {
         "h2": "Comments"
       },
       {
