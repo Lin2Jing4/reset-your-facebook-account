@@ -102,6 +102,25 @@
         }
       },
       {
+        "h2": "Event invitations"
+      },
+      {
+        "blockquote": "https://www.facebook.com/your-facebook-username/allactivity?category_key=INVITEDEVENTS"
+      },
+      {
+        "code": {
+          "language": "js",
+          "content": [
+            "  selector =                                   ",
+            "    `                                          ",
+            "      [aria-label='Action options'],           ",
+            "      :contains('Remove Me From Guest List')   ",
+            "    `                                          ",
+            "  setInterval(() => $(selector).click(), 999)  "
+          ]
+        }
+      },
+      {
         "p": "If you find a bug, have a question or want a feature to be added, open [an issue](https://github.com/IonicaBizau/reset-your-facebook-account/issues)."
       },
       {
