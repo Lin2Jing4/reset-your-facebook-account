@@ -102,6 +102,26 @@
         }
       },
       {
+        "h2": "Membership activities"
+      },
+      {
+        "blockquote": "https://www.facebook.com/your-facebook-username/allactivity/?category_key=GROUPMEMBERSHIP"
+      },
+      {
+        "code": {
+          "language": "js",
+          "content": [
+            "  selector =                                   ",
+            "    `                                          ",
+            "      [aria-label='Action options'],           ",
+            "      :contains('Delete Your Activity'),       ",
+            "      :contains('Delete')                      ",
+            "    `                                          ",
+            "  setInterval(() => $(selector).click(), 999)  "
+          ]
+        }
+      },
+      {
         "p": "If you find a bug, have a question or want a feature to be added, open [an issue](https://github.com/IonicaBizau/reset-your-facebook-account/issues)."
       },
       {
