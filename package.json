@@ -59,6 +59,23 @@
         }
       },
       {
+        "blockquote": "https://www.facebook.com/your-facebook-username/allactivity/?category_key=LIKES"
+      },
+      {
+        "code": {
+          "language": "js",
+          "content": [
+            "  selector =                                   ",
+            "    `                                          ",
+            "      [aria-label='Action options'],           ",
+            "      :contains('Unlike'),                     ",
+            "      :contains('Remove Reaction')             ",
+            "    `                                          ",
+            "  setInterval(() => $(selector).click(), 999)  "
+          ]
+        }
+      },
+      {
         "h2": "Posts"
       },
       {
