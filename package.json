@@ -102,6 +102,25 @@
         }
       },
       {
+        "h2": "Saved for later"
+      },
+      {
+        "blockquote": "https://www.facebook.com/your-facebook-username/allactivity/?category_key=SAVEDFORLATER"
+      },
+      {
+        "code": {
+          "language": "js",
+          "content": [
+            "  selector =                                   ",
+            "    `                                          ",
+            "      [aria-label='Action options'],           ",
+            "      :contains('Delete')                      ",
+            "    `                                          ",
+            "  setInterval(() => $(selector).click(), 999)  "
+          ]
+        }
+      },
+      {
         "p": "If you find a bug, have a question or want a feature to be added, open [an issue](https://github.com/IonicaBizau/reset-your-facebook-account/issues)."
       },
       {
